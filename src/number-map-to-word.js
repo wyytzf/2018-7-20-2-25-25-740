@@ -10,5 +10,6 @@ function numberMapToWord(collection) {
       return String.fromCharCode(a + 96, b + 96)
     }
 }
+                        }
 
 module.exports = numberMapToWord;
