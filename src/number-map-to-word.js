@@ -2,8 +2,8 @@ function numberMapToWord(collection) {
   //在这里写入代码
   return collection.map(function (c) {
     const a = parseInt(c / 26);
-//    const b = c % 26;
-     const b = c %22;
+   const b = c % 26;
+//      const b = c %22;
     if (a === 0) {
       return String.fromCharCode(b + 96)
     } else {
